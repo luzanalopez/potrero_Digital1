@@ -1,0 +1,198 @@
+/*  GENERALES */
+* {
+  box-sizing: border-box;
+  margin : 0;
+  padding: 0;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.section-division{
+  margin-top: 5px;
+}
+/*  BODY  */
+/*--header--*/
+header{
+  width: 100%;
+  min-height: 10vh;
+  background-color:  rgb(254,224,232);
+}
+
+
+.container-fluid a img{
+  width: 25%;
+}
+
+main{
+  background-color:  rgb(255, 255, 240);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-division{
+  margin-top: 5px;
+}
+
+#main section{
+  width: 60%;
+  display: flex;
+  /*flex-direction: column;*/
+}
+
+#Contenedor_Producto{
+  background-color:  rgb(240,211,151);
+  width : 70%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251,242,225);
+  box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 5px;
+}
+
+.Titu-Producto{
+  font-size: 30px;
+  font-family: serif;
+  text-align: right;
+}
+
+#Contenedor_Descripcion{
+  width :70%;
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  background-color: rgb(242,219,176);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 30%;
+}
+
+.Contenido-Descripcion{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
+
+.Imagen-Descripcion{
+ margin-left: 10px;
+ width: 50%;
+ height: 80%;
+ /*height: 100%;*/
+}
+
+.Texto-Descripcion{
+margin-left: 10px;
+text-align:justify;
+padding-right: 8px;
+width: 80%;
+height: 100%;
+}
+
+.descripcion-txt{
+font-size: 20px;
+}
+
+
+
+#Contenedor_Contacto {
+  width : 70%;
+  height: 300px;
+  background-color: rgb(217,217,217);
+}
+
+.Contenido-Contacto{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.Datos-Contacto{
+  width: 45%;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.Datos-Contacto figure{
+  height: 100%;
+  width: 100%;
+}
+
+.Mapa-Contacto{
+width: 45%;
+height: 100%;
+}
+
+.Mapa-Contacto iframe{
+height: 100%;
+width: 100%;
+}
+
+footer {
+  height: 80px;
+  background-color: rgb(251,242,225);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+@media  (max-width: 800px) {
+
+  .carousel-item{
+  height: 280px;
+  }
+
+  /*#Contenedor_Descripcion{
+    width :70%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .Contenido-Descripcion{
+  }*/
+
+  #Contenedor_Contacto {
+    width : 70%;
+    height: 400px;
+  }
+
+  .Contenido-Contacto{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+  }
+  .Datos-Contacto{
+    width: 100%;
+    height: 50%;
+  }
+
+
+  .Mapa-Contacto{
+  width: 100%;
+  height: 45%;
+  }
+
+  .Mapa-Contacto iframe{
+  height: 100%;
+  width: 100%;
+  }
+
+
+  }

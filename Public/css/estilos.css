@@ -1,0 +1,257 @@
+/* GENERALES */
+* {
+  box-sizing: border-box;
+  margin : 0;
+  padding: 0;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+/*  BODY  */
+header{
+  width: 100%;
+  min-height: 10vh;
+  background-color:  rgb(254,224,232);
+}
+
+
+
+.container-fluid a img{
+  width: 25%;
+}
+
+
+
+.texto-empresa{
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  color:rgb(248, 124, 149) ;
+}
+
+
+/**-MAIN**/
+
+main{
+  background-color:  rgb(255, 255, 240);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main section{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#Contenedor_Carrousel{
+width : 70%;
+height:100%;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+t1{
+  font-size: 45px;
+  color: rgb(26,0,26,1);
+}
+
+.carousel-item{
+height: 480px;
+}
+
+#Contenedor_Nosotros {
+  width : 80%;
+  height:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251,242,225);
+  margin-bottom: 15px;
+}
+
+.Titu-section{
+  font-size :30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.Texto-Nosotros{
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Gilda Display', serif;
+  /*font-family: 'Playfair Display', serif;*/
+}
+
+.h2{
+  font-size: 25px;
+}
+
+#Contenedor_Galeria {
+  width :80%;
+  background-color: rgb(247,210,128);
+  justify-content:space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom :5px;
+}
+
+
+.Elemento-galeria{
+  width:50vh;
+  height: 15vw;
+  display:flex;
+  justify-content:center;
+  padding :3px 3px 3px 3px;
+}
+
+#Contenedor_Receta {
+  width : 80%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251,242,225);
+  margin-bottom: 15px;
+  box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+#Contenedor_Receta a {
+  color :rgb(70,70,70);
+  text-decoration: none;
+  text-shadow:1px 1px 2px white;
+}
+
+.titu-division{
+  padding-left: 15px;
+}
+
+.Texto-receta{
+  font-family: 'Playfair Display', serif;
+}
+
+#Contenedor_Contacto {
+  width : 80%;
+  height: 300px;
+  background-color: rgb(217,217,217);
+}
+
+.Contenido-Contacto{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.Datos-Contacto{
+  width: 45%;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.Datos-Contacto figure{
+  height: 100%;
+  width: 100%;
+}
+
+.Mapa-Contacto{
+width: 45%;
+height: 100%;
+}
+
+.Mapa-Contacto iframe{
+height: 100%;
+width: 100%;
+}
+
+footer {
+  height: 80px;
+  background-color: rgb(251,242,225);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+
+
+@media  (max-width: 700px) {
+
+  .texto-empresa{
+    font-size: 10px;
+  }
+
+  .carousel-item{
+  height: 280px;
+  }
+
+  #Contenedor_Galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .Elemento-galeria{
+    height: 20vw;
+    width: 20vh;
+    padding :3px 3px 23px 3px;
+  }
+
+  #Contenedor_Contacto {
+    width : 80%;
+    height: 400px;
+  }
+
+  .Contenido-Contacto{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+  }
+  .Datos-Contacto{
+    width: 100%;
+    height: 50%;
+  }
+
+
+  .Mapa-Contacto{
+  width: 100%;
+  height: 45%;
+  }
+
+  .Mapa-Contacto iframe{
+  height: 100%;
+  width: 100%;
+  }
+}
+
+@media only screen and (min-width: 701px)  and (max-width:900px) {
+  #Contenedor_Galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .Elemento-galeria{
+    height: 15vw;
+    width: 30vh;
+    padding :3px 3px 23px 3px;
+  }
+}*/
