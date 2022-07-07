@@ -107,8 +107,6 @@ font-size: 20px;
 
 #Contenedor_Galeria {
   width :70%;
-  /*height: 60vh;*/
-  /*height: 45%;*/
   background-color: rgb(247,210,128);
 }
 
@@ -129,11 +127,9 @@ font-size: 20px;
 }
 
 .Elemento-galeria{
-  height: 10vw;
-  width: 28vh;
-
+  height: 16vh;
+  width: 12vw;
   padding :5px 3px 23px 5px;
-  /*margin-top: 30px;*/
 }
 
 .Elemento-galeria a{
@@ -233,13 +229,12 @@ footer {
     flex-wrap: wrap;
   }
   .Elemento-galeria{
-    height: 15vw;
-    width: 16vh;
+    height: 20vh;
+    width: 35vw;
     display: flex;
     flex-direction:column;
     justify-content:center;
     align-items: center;
     padding :3px 3px 23px 3px;
-    /*margin-top: 30px;*/
   }
   }
