@@ -129,7 +129,7 @@ font-size: 20px;
 .Elemento-galeria{
   height: 16vh;
   width: 12vw;
-  padding :5px 3px 23px 5px;
+  padding :3px 3px 23px 3px;
 }
 
 .Elemento-galeria a{
@@ -187,10 +187,6 @@ footer {
 
 @media  (max-width: 700px) {
 
-  .carousel-item{
-  height: 280px;
-  }
-
 
   #Contenedor_Contacto {
     width : 70%;
@@ -218,9 +214,7 @@ footer {
   height: 100%;
   width: 100%;
   }
-}
-
-@media  (max-width: 900px) {
+ 
   .Contenido-Galeria{
     display: flex;
     flex-direction: column;
@@ -229,12 +223,14 @@ footer {
     flex-wrap: wrap;
   }
   .Elemento-galeria{
-    height: 20vh;
-    width: 35vw;
+    height: 15vh;
+    width:36vw;
     display: flex;
     flex-direction:column;
     justify-content:center;
     align-items: center;
     padding :3px 3px 23px 3px;
   }
-  }
+}
+
+
