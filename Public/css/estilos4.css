@@ -65,10 +65,9 @@ main{
   font-family: serif;
   text-align: right;
 }
+
 #Contenedor_Descripcion{
   width :70%;
-  /*display: flex;
-  flex-direction:row;*/
   align-items:center;
   background-color: rgb(242,219,176);
   margin-top: 10px;
@@ -83,18 +82,19 @@ main{
   justify-content: center;
 }
 
+
 .Imagen-Descripcion{
- margin-left: 8px;
+ margin-left: 10px;
  margin-top: 5px;
- width: 45%;
- height: 100%;
+ width: 50%;
+ height: 80%;
 }
 
 .Texto-Descripcion{
 margin-left: 10px;
 text-align:justify;
 padding-right: 8px;
-width: 45%;
+width: 80%;
 height: 100%;
 }
 
@@ -127,8 +127,8 @@ font-size: 20px;
 }
 
 .Elemento-galeria{
-  height: 10vw;
-  width: 16vh;
+  height: 16vh;
+  width: 12vw;
   padding :3px 3px 23px 3px;
 }
 
@@ -186,10 +186,6 @@ footer {
 
 @media  (max-width: 700px) {
 
-  .carousel-item{
-  height: 280px;
-  }
-
 
   #Contenedor_Contacto {
     width : 70%;
@@ -217,9 +213,7 @@ footer {
   height: 100%;
   width: 100%;
   }
-}
 
-@media  (max-width: 900px) {
   .Contenido-Galeria{
     display: flex;
     flex-direction: column;
@@ -228,12 +222,13 @@ footer {
     flex-wrap: wrap;
   }
   .Elemento-galeria{
-    width:15vh;
-    height: 16vw;
+    width:36vw;
+    height: 16vh;
     display: flex;
     flex-direction:column;
     justify-content:center;
     align-items: center;
-    padding :3px 3px 3px 3px;
+    padding :3px 3px 23px 3px;
   }
   }
+
